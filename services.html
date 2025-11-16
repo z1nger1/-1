@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги - PowerFlex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cursor-follower"></div>
+    
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <div class="logo-icon">💪</div>
+                <h1>Power<span>Flex</span></h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Главная</a></li>
+                    <li><a href="services.html" class="nav-link active">Услуги</a></li>
+                    <li><a href="contacts.html" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="services-hero">
+            <div class="container">
+                <h1 class="page-title">Наши эксклюзивные услуги</h1>
+                <p class="page-subtitle">Инновационные решения для вашего тела</p>
+            </div>
+        </section>
+
+        <section class="services-grid">
+            <div class="container">
+                <div class="service-category">
+                    <h2>💎 Премиум программы</h2>
+                    <div class="services-container">
+                        <div class="service-card">
+                            <div class="service-header">
+                                <h3>ДНК-фитнес</h3>
+                                <div class="service-price">от 25 000₽/мес</div>
+                            </div>
+                            <div class="service-body">
+                                <p>Персональная программа на основе генетического анализа</p>
+                                <ul class="service-features">
+                                    <li>📊 Полный ДНК-анализ</li>
+                                    <li>🧬 Индивидуальная программа</li>
+                                    <li>🔬 Биометрический мониторинг</li>
+                                    <li>🎯 Корректировка каждые 2 недели</li>
+                                </ul>
+                                <button class="btn btn-outline" data-service="dna">Узнать больше</button>
+                            </div>
+                        </div>
+
+                        <div class="service-card featured">
+                            <div class="service-badge">ХИТ</div>
+                            <div class="service-header">
+                                <h3>VR-тренировки</h3>
+                                <div class="service-price">от 15 000₽/мес</div>
+                            </div>
+                            <div class="service-body">
+                                <p>Иммерсивные тренировки в виртуальной реальности</p>
+                                <ul class="service-features">
+                                    <li>🕶️ VR-оборудование включено</li>
+                                    <li>🌍 Тренировки в любом месте мира</li>
+                                    <li>🎮 Геймификация процесса</li>
+                                    <li>📈 Реальная биометрия в VR</li>
+                                </ul>
+                                <button class="btn btn-primary" data-service="vr">Попробовать VR</button>
+                            </div>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-header">
+                                <h3>AI-тренер 24/7</h3>
+                                <div class="service-price">от 12 000₽/мес</div>
+                            </div>
+                            <div class="service-body">
+                                <p>Искусственный интеллект для персонального коучинга</p>
+                                <ul class="service-features">
+                                    <li>🤖 Персональный AI-тренер</li>
+                                    <li>⏰ Круглосуточная поддержка</li>
+                                    <li>📱 Мобильное приложение</li>
+                                    <li>📊 Анализ прогресса</li>
+                                </ul>
+                                <button class="btn btn-outline" data-service="ai">Запустить AI</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-category">
+                    <h2>🚀 Инновационные технологии</h2>
+                    <div class="tech-showcase">
+                        <div class="tech-item">
+                            <div class="tech-icon">🧠</div>
+                            <h4>Нейрофитнес</h4>
+                            <p>Тренировки с использованием нейроинтерфейсов</p>
+                            <div class="tech-progress">
+                                <div class="progress-value">87% эффективность</div>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">🔋</div>
+                            <h4>Биохакинг</h4>
+                            <p>Оптимизация организма на клеточном уровне</p>
+                            <div class="tech-progress">
+                                <div class="progress-value">94% эффективность</div>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">🌡️</div>
+                            <h4>Криотерапия</h4>
+                            <p>Экстремальное охлаждение для восстановления</p>
+                            <div class="tech-progress">
+                                <div class="progress-value">91% эффективность</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="booking-section">
+            <div class="container">
+                <h2>Забронируйте консультацию</h2>
+                <div class="booking-form">
+                    <div class="form-group">
+                        <label for="service-select">Выберите услугу</label>
+                        <select id="service-select">
+                            <option value="dna">ДНК-фитнес</option>
+                            <option value="vr">VR-тренировки</option>
+                            <option value="ai">AI-тренер</option>
+                            <option value="neuro">Нейрофитнес</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="consult-date">Дата консультации</label>
+                        <input type="date" id="consult-date" required>
+                    </div>
+                    <button class="btn btn-primary">Забронировать</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>PowerFlex</h3>
+                    <p>Трансформируем тела, меняем жизни</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>🏢 г. Москва, ул. Фитнесная, 42</p>
+                    <p>📞 +7 (495) 123-45-67</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Часы работы</h4>
+                    <p>🕕 Пн-Вс: 5:00 - 2:00</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript для страницы услуг
+        document.addEventListener('DOMContentLoaded', function() {
+            // Анимация курсора
+            const cursor = document.querySelector('.cursor-follower');
+            document.addEventListener('mousemove', (e) => {
+                cursor.style.left = e.clientX + 'px';
+                cursor.style.top = e.clientY + 'px';
+            });
+
+            // Анимация карточек услуг
+            const serviceCards = document.querySelectorAll('.service-card');
+            serviceCards.forEach((card, index) => {
+                card.style.animationDelay = `${index * 0.2}s`;
+            });
+
+            // Взаимодействие с карточками услуг
+            serviceCards.forEach(card => {
+                card.addEventListener('mouseenter', () => {
+                    card.style.transform = 'translateY(-10px) scale(1.02)';
+                });
+                
+                card.addEventListener('mouseleave', () => {
+                    card.style.transform = 'translateY(0) scale(1)';
+                });
+
+                const button = card.querySelector('button');
+                button.addEventListener('click', function() {
+                    const service = this.getAttribute('data-service');
+                    alert(`🚀 Отличный выбор! Вы выбрали: ${service.toUpperCase()}-услугу. Наш менеджер свяжется с вами для деталей.`);
+                });
+            });
+
+            // Бронирование консультации
+            const bookingForm = document.querySelector('.booking-form');
+            bookingForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const service = document.getElementById('service-select').value;
+                const date = document.getElementById('consult-date').value;
+                
+                if (service && date) {
+                    alert(`✅ Консультация по услуге "${service}" забронирована на ${date}!`);
+                    bookingForm.reset();
+                }
+            });
+
+            // Мобильное меню
+            const menuToggle = document.querySelector('.menu-toggle');
+            const nav = document.querySelector('.nav');
+            
+            menuToggle.addEventListener('click', function() {
+                nav.classList.toggle('active');
+                this.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>

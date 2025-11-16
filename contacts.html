@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - PowerFlex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cursor-follower"></div>
+    
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <div class="logo-icon">💪</div>
+                <h1>Power<span>Flex</span></h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Главная</a></li>
+                    <li><a href="services.html" class="nav-link">Услуги</a></li>
+                    <li><a href="contacts.html" class="nav-link active">Контакты</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="contacts-hero">
+            <div class="container">
+                <h1 class="page-title">Свяжитесь с нами</h1>
+                <p class="page-subtitle">Мы всегда на связи для вашей трансформации</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>📞 Наши контакты</h2>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h3>Адрес</h3>
+                                <p>г. Москва, ул. Фитнесная, 42</p>
+                                <p>Бизнес-центр "Элит", 5 этаж</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-details">
+                                <h3>Телефоны</h3>
+                                <p>+7 (495) 123-45-67</p>
+                                <p>+7 (495) 123-45-68 (VIP-линия)</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>info@powerflex.ru</p>
+                                <p>vip@powerflex.ru</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">🕒</div>
+                            <div class="contact-details">
+                                <h3>Часы работы</h3>
+                                <p>Пн-Вс: 5:00 - 2:00</p>
+                                <p>Круглосуточная поддержка онлайн</p>
+                            </div>
+                        </div>
+
+                        <div class="social-contact">
+                            <h3>Мы в соцсетях</h3>
+                            <div class="social-buttons">
+                                <button class="social-btn instagram">Instagram</button>
+                                <button class="social-btn telegram">Telegram</button>
+                                <button class="social-btn whatsapp">WhatsApp</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-section">
+                        <h2>📝 Быстрая связь</h2>
+                        <form class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="contact-name">Имя</label>
+                                    <input type="text" id="contact-name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-phone">Телефон</label>
+                                    <input type="tel" id="contact-phone" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contact-email">Email</label>
+                                <input type="email" id="contact-email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-service">Интересующая услуга</label>
+                                <select id="contact-service">
+                                    <option value="">Выберите услугу</option>
+                                    <option value="dna">ДНК-фитнес</option>
+                                    <option value="vr">VR-тренировки</option>
+                                    <option value="ai">AI-тренер</option>
+                                    <option value="consult">Консультация</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-message">Сообщение</label>
+                                <textarea id="contact-message" rows="5" placeholder="Расскажите о ваших целях..."></textarea>
+                            </div>
+
+                            <div class="form-options">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" required>
+                                    <span class="checkmark"></span>
+                                    Согласен с обработкой персональных данных
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    Хочу получать фитнес-советы
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-large">
+                                <span class="btn-text">Отправить заявку</span>
+                                <span class="btn-loader">⏳</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="map-section">
+                    <h2>🗺️ Мы на карте</h2>
+                    <div class="map-container">
+                        <div class="map-placeholder">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>PowerFlex</h3>
+                    <p>Трансформируем тела, меняем жизни</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>🏢 г. Москва, ул. Фитнесная, 42</p>
+                    <p>📞 +7 (495) 123-45-67</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Часы работы</h4>
+                    <p>🕕 Пн-Вс: 5:00 - 2:00</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript для страницы контактов
+        document.addEventListener('DOMContentLoaded', function() {
+            // Анимация курсора
+            const cursor = document.querySelector('.cursor-follower');
+            document.addEventListener('mousemove', (e) => {
+                cursor.style.left = e.clientX + 'px';
+                cursor.style.top = e.clientY + 'px';
+            });
+
+            // Анимация контактных элементов
+            const contactItems = document.querySelectorAll('.contact-item');
+            contactItems.forEach((item, index) => {
+                item.style.animationDelay = `${index * 0.1}s`;
+            });
+
+            // Социальные кнопки
+            const socialButtons = document.querySelectorAll('.social-btn');
+            socialButtons.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const platform = this.classList[1];
+                    const messages = {
+                        instagram: 'Переход в Instagram...',
+                        telegram: 'Открытие Telegram...',
+                        whatsapp: 'Запуск WhatsApp...'
+                    };
+                    alert(`📱 ${messages[platform]}`);
+                });
+            });
+
+            // Форма обратной связи
+            const contactForm = document.querySelector('.contact-form');
+            const submitBtn = contactForm.querySelector('.btn');
+            const btnText = submitBtn.querySelector('.btn-text');
+            const btnLoader = submitBtn.querySelector('.btn-loader');
+
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                let isValid = true;
+                const requiredFields = this.querySelectorAll('input[required], select[required]');
+                
+                requiredFields.forEach(field => {
+                    if (!field.value.trim()) {
+                        isValid = false;
+                        field.style.borderColor = '#ff4757';
+                    } else {
+                        field.style.borderColor = '#ddd';
+                    }
+                });
+
+                if (isValid) {
+                    // Показываем анимацию загрузки
+                    btnText.style.display = 'none';
+                    btnLoader.style.display = 'inline-block';
+                    submitBtn.disabled = true;
+
+                    // Имитация отправки
+                    setTimeout(() => {
+                        alert('🎉 Ваша заявка принята! Мы свяжемся с вами в течение 15 минут.');
+                        contactForm.reset();
+                        
+                        // Возвращаем кнопку в исходное состояние
+                        btnText.style.display = 'inline-block';
+                        btnLoader.style.display = 'none';
+                        submitBtn.disabled = false;
+                    }, 2000);
+                }
+            });
+
+            // Кастомные чекбоксы
+            const checkboxes = document.querySelectorAll('.checkbox-label input');
+            checkboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', function() {
+                    const checkmark = this.nextElementSibling;
+                    if (this.checked) {
+                        checkmark.style.background = 'var(--primary-color)';
+                        checkmark.style.borderColor = 'var(--primary-color)';
+                    } else {
+                        checkmark.style.background = 'transparent';
+                        checkmark.style.borderColor = '#ddd';
+                    }
+                });
+            });
+
+            // Мобильное меню
+            const menuToggle = document.querySelector('.menu-toggle');
+            const nav = document.querySelector('.nav');
+            
+            menuToggle.addEventListener('click', function() {
+                nav.classList.toggle('active');
+                this.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
