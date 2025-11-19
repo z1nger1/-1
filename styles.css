@@ -778,9 +778,6 @@ body {
 
 .map-placeholder {
     height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
     background: transparent;
 }
@@ -793,6 +790,7 @@ body {
     height: 100%;
     border: none;
 }
+
 .map-marker,
 .map-placeholder p,
 .map-placeholder .btn {
@@ -976,6 +974,16 @@ body {
     .map-placeholder {
         height: 300px;
     }
+    
+    /* Улучшение взаимодействия с картой на мобильных */
+    .map-container {
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+.map-container {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
 }
 
 @media (max-width: 480px) {
